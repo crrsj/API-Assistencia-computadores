@@ -5,6 +5,7 @@ import br.com.computador.enums.Defeito;
 import br.com.computador.enums.Marca;
 import br.com.computador.enums.StatusOrcamento;
 import br.com.computador.enums.TipoAparelho;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -19,6 +20,7 @@ public class AparelhoDTO {
     private Integer ordemServico = new Random().nextInt(9000) + 1000;
     private TipoAparelho tipo;
     private Marca marca;
+    @NotBlank(message = "não pode estar em branco.")
     private String modelo;
     private Defeito defeito;
     private String descricao;
