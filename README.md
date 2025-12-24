@@ -1,23 +1,32 @@
 
-🛠️ Assistência Técnica API
+🛠️💻 Transformando a gestão de assistências técnicas com tecnologia 
 
-API para gerenciamento de ordens de serviço, clientes e aparelhos. O projeto está em fase ativa de construção, com as funcionalidades principais já implementadas, porém passando por refinamentos estruturais.
-🚧 Status de Desenvolvimento
+Olá pessoal,recentemente, foquei em desenvolver uma solução completa para resolver um problema comum em oficinas e assistências: a organização de Ordens de Serviço e a comunicação com o cliente.
 
-O projeto encontra-se em estágio de desenvolvimento contínuo. No momento, as seguintes camadas estão sendo priorizadas:
+O projeto consiste em um sistema de gestão ponta a ponta, onde priorizei a agilidade e a clareza das informações.
 
-    Validações: Refinamento das regras de negócio e proteção de campos obrigatórios (Bean Validation).
+Principais funcionalidades desenvolvidas: 
 
-    Tratamento de Exceções: Implementação de um manipulador global (GlobalExceptionHandler) para respostas HTTP mais amigáveis e precisas.
+✅ Gestão de OS: Controle total de aparelhos e serviços com busca em tempo real. 
 
-    Documentação: Mapeamento dos endpoints via Swagger/OpenAPI para facilitar a integração com o Frontend.
+✅ Geração de PDF: Integração entre backend e frontend para emissão instantânea de recibos profissionais. 
 
-🛡️ Funcionalidades em Refinamento
+✅ Identificação Inteligente: Implementação de um sistema de numeração randômica de OS para controle de estoque e segurança do cliente. 
 
-    [ ] Tratamento customizado para erros de banco de dados e recursos não encontrados.
+✅ Filtros Dinâmicos: Interface intuitiva que permite localizar qualquer serviço por ID, modelo ou nome do cliente.
 
-    [ ] Implementação de logs de auditoria.
+O que usei no "capô"? 
 
-    [ ] Padronização dos retornos de erro (DTONotFound, BusinessException).
+🔹 Backend: Java com Spring Boot, focado em uma API REST robusta e geração dinâmica de documentos com iText/PdfDocument. 
 
-    Nota: Esta API é um ambiente de desenvolvimento e está sujeita a mudanças constantes na estrutura dos endpoints e nos esquemas de banco de dados.
+🔹 Frontend: JavaScript Moderno (ES6+) e Tailwind CSS para uma interface limpa, rápida e responsiva. 
+
+🔹 Arquitetura: Separação clara de responsabilidades entre cliente e servidor, garantindo escalabilidade.
+
+Acredito que a tecnologia deve ser, acima de tudo, uma ferramenta facilitadora para o pequeno e médio empreendedor.
+
+Confira um pouco do visual nas imagens abaixo e outos detalhes no video! 👇
+
+![assc1](https://github.com/user-attachments/assets/6cc27a9c-6a58-484e-a544-55d359fd1f0a)
+![assc2](https://github.com/user-attachments/assets/be6406b7-0c9d-49dc-ad92-edf96db87bfd)
+![assc3](https://github.com/user-attachments/assets/bcdda1d7-e036-4e94-a48e-6cba0a11dbbf)
